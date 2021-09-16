@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// use rfc to populate this part
+import React from 'react'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Testing React Set Up
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>I love React</h1>
+    </>
   );
 }
+
+//  export default App;
