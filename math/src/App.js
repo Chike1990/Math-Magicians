@@ -1,12 +1,22 @@
-// use rfc to populate this part
-import React from 'react'
+/* eslint-disable  */
+import { Component } from "react"
+import Calculator from "./components/Calculator";
+import "./App.css";
 
-export default function App() {
-  return (
-    <>
-      <h1>I love React</h1>
-    </>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      expression: '',
+    };
+  }
+
+  render() {
+    return (
+      <Calculator/>
+    );
+  }
 }
 
-//  export default App;
+export default App;
