@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/JS-Capstone/blob/main/LICENSE">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/VanessaAoki/JS-Capstone?style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/JS-Capstone">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/VanessaAoki/JS-Capstone/main?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/VanessaAoki/JS-Capstone">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/VanessaAoki/JS-Capstone?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magician App
+This is a calculator app.
 
-## Available Scripts
+> Watch the video presentation [here]()
 
-In the project directory, you can run:
+<p align="center">  
+    <img alt="Screenshot" src="Math-Magicians/maths/src/components/Screenshot.png" 
+     width="500">
+</p>
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML, CSS, JavaScript, React, and Webpack;
+- Visual Studio, Git & GitHub;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Running locally
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. In your terminal, type the following, to clone this repository:
 
-### `npm run build`
+```sh
+$ git clone https://github.com/Chike1990/Math-Magicians
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. After, run the following commands in your terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+$ cd Math-Magician
+$ npm install
+$ npm run build
+$ cd dist
+```
+<details align="right">
+<summary><small>What are these commands?</summary>
+- the `$ cd` command is used to move to different folders.<br>
+- while `$ npm run build` is used to compile the aplication files.</small>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Open the `index.html` file and run the application;
 
-### `npm run eject`
+4. To run the tests simply type `$ npm test` in your console;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Live Server
+Optionally, you can run the application [here]().
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+👤 Chibuike Uzoechina
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- GitHub: [@Chike1990](https://github.com/Chike1990)
+- Twitter: [@ChibuikeUzoechi](https://twitter.com/ChibuikeUzoechi)
+- LinkedIn: [@Chibuike-Uzoechina](https://www.linkedin.com/in/chibuike-uzoechina-630857102)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/Chike1990/Math-Magicians).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
