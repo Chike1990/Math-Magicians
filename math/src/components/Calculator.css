@@ -20,20 +20,16 @@ h5 {
   /* margin-bottom: 50px; */
 }
 
-.keys-1 {
+.keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(40px, auto);
 }
 
-.keys-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(40px, auto);
-}
-
-input {
+.display {
   height: 45px;
+  line-height: 45px;
+  color: #fff;
   display: inline-block;
   width: 296px;
   overflow: hidden;
