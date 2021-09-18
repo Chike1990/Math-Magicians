@@ -1,24 +1,20 @@
 /* eslint-disable  */
-import { Component } from "react"
+import { useState } from "react"
 import Calculator from "./components/Calculator";
 import calculate from './logic/calculate';
 
 
-class App extends Component {
-  state = {
-    obj: {}
+const App = () => {
+  const [obj, setObj] = useState({})
+
+  const handleClick = ({target}) => {
+    const result = calculate(obj, target.name);
+    setObj(result)
   }
 
-  handleClick = ({target}) => {
-    const result = calculate(this.state.obj, target.name);
-    this.setState({obj: result})
-  }
-
-  render() {
     return (
-      <Calculator handleClick={this.handleClick} obj={this.state.obj} />
+      <Calculator handleClick={handleClick} obj={obj} />
     );
-  }
 }
 
 export default App;
