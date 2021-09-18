@@ -14,7 +14,7 @@ class Calculator extends React.Component {
           <button id="reset" name="AC" onClick={this.props.handleClick}>AC</button>
           <button id="backspace" name="+/-" onClick={this.props.handleClick}>+/-</button>
           <button name="%" onClick={this.props.handleClick}>%</button>
-          <button class="operator" name="/" onClick={this.props.handleClick}>/</button>
+          <button class="operator" name="÷" onClick={this.props.handleClick}>÷</button>
           <button name="7" onClick={this.props.handleClick}>7</button>
           <button name="8" onClick={this.props.handleClick}>8</button>
           <button name="9" onClick={this.props.handleClick}>9</button>
