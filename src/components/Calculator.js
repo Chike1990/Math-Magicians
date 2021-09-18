@@ -1,10 +1,10 @@
-/* eslint-disable  */
+/* eslint-disable  no-unused-vars */
+
 import React, { Component } from 'react';
 
-import "./Calculator.css";
+import './Calculator.css';
 
 class Calculator extends React.Component {
-
   render() {
     const { total, operation, next } = this.props.obj;
     return (
