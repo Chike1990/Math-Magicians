@@ -12,13 +12,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(40px, auto);
-  
 }
 
 .keys button {
-  border: none;
   outline: none;
-  border: 1px solid rgb(189, 182, 182);;
+  border: 1px solid rgb(189, 182, 182);
 }
 
 .operator {
@@ -42,7 +40,7 @@
 }
 
 .zero {
-  grid-column: 1 / 3
+  grid-column: 1 / 3;
 }
 
 input::-webkit-outer-spin-button,
