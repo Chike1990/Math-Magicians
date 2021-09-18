@@ -22,7 +22,6 @@ $ git clone https://github.com/Chike1990/Math-Magicians
 
 ```sh
 $ cd Math-Magician
-$ cd math
 $ npm install
 $ npm run build
 $ cd dist
