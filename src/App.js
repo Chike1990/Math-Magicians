@@ -1,4 +1,3 @@
-/* eslint-disable  no-unused-vars */
 import { Component } from 'react';
 import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
