@@ -1,47 +1,35 @@
-h5 {
-  color: rgb(82, 72, 72);
-}
-
 .container {
   background: rgb(22, 20, 20);
   top: 50%;
   left: 50%;
   right: 50%;
-
-  /* position: absolute; */
-
-  /* transform: translate(-50%, -50%); */
   margin: 0 auto;
   width: 300px;
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
-
-  /* margin-bottom: 50px; */
 }
 
-.keys-1 {
+.keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(40px, auto);
 }
 
-.keys-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(40px, auto);
+.operator{
+  background-color: orange;
 }
 
-input {
+.display {
   height: 45px;
+  line-height: 45px;
+  color: #fff;
   display: inline-block;
   width: 296px;
   overflow: hidden;
-  background-color: rgb(82, 72, 72);
+  background-color: rgb(189, 182, 182);
   border: none;
   outline: none;
-
-  /* color: aliceblue; */
   text-align: right;
   font-size: 20px;
   font-weight: 500;

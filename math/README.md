@@ -1,28 +1,7 @@
-<p align="center">
-  <a href="https://www.microverse.org/">
-    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
-  </a>
-  <a href="https://github.com/VanessaAoki/JS-Capstone/blob/main/LICENSE">
-    <img alt="MIT Licensed" src="https://img.shields.io/github/license/VanessaAoki/JS-Capstone?style=flat-square">
-  </a>
-  <a href="https://github.com/VanessaAoki/JS-Capstone">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/VanessaAoki/JS-Capstone/main?color=blue&style=flat-square">
-  </a>
-  <a href="https://github.com/VanessaAoki/JS-Capstone">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/VanessaAoki/JS-Capstone?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
-  </a>
-</p>
-
 # Math Magician App
-This is a calculator app.
+This is a calculator app built with React.
 
-> Watch the video presentation [here]()
-
-<p align="center">  
-    <img alt="Screenshot" src="Math-Magicians/maths/src/components/Screenshot.png" 
-     width="500">
-</p>
-
+![Screenshot](src/components/Screenshot.png)
 ## Built With
 
 - HTML, CSS, JavaScript, React, and Webpack;
@@ -35,27 +14,24 @@ To run this project, you only need a computer with a browser (like Google Chrome
 
 1. In your terminal, type the following, to clone this repository:
 
-```sh
+sh
 $ git clone https://github.com/Chike1990/Math-Magicians
-```
+
 
 2. After, run the following commands in your terminal:
 
-```sh
+sh
 $ cd Math-Magician
+$ cd math
 $ npm install
 $ npm run build
 $ cd dist
-```
+
 <details align="right">
 <summary><small>What are these commands?</summary>
 - the `$ cd` command is used to move to different folders.<br>
 - while `$ npm run build` is used to compile the aplication files.</small>
 </details>
-
-3. Open the `index.html` file and run the application;
-
-4. To run the tests simply type `$ npm test` in your console;
 
 ### Live Server
 Optionally, you can run the application [here]().
@@ -77,7 +53,7 @@ Feel free to check the [issues page](https://github.com/Chike1990/Math-Magicians
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐ if you like this project!
 
 ## 📝 License
 
