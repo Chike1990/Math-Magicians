@@ -1,7 +1,7 @@
 # Math Magician App
 The Math Magician App is a calculator app built with React.
 
-![Screenshot](math/src/components/Screenshot.png)
+![Screenshot](/src/components/Screenshot.png)
 ## Built With
 
 - HTML, CSS, JavaScript, React, and Webpack;
@@ -22,7 +22,6 @@ $ git clone https://github.com/Chike1990/Math-Magicians
 
 ```sh
 $ cd Math-Magician
-$ cd math
 $ npm install
 $ npm run build
 $ cd dist
