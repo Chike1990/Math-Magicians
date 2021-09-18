@@ -27,8 +27,7 @@ class Calculator extends React.Component {
           <button name="2" onClick={this.props.handleClick}>2</button>
           <button name="3" onClick={this.props.handleClick}>3</button>
           <button class="operator" id="plus" name="+" onClick={this.props.handleClick}>+</button>
-          <button name="0" onClick={this.props.handleClick}>0</button>
-          <button name="00" onClick={this.props.handleClick}>00</button>
+          <button name="0" className="zero" onClick={this.props.handleClick}>0</button>
           <button name="." onClick={this.props.handleClick}>.</button>
           <button class="operator grid" onClick={this.props.handleClick}>=</button>
           </div>
