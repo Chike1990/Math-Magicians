@@ -2,7 +2,7 @@
 import { Component } from "react"
 import Calculator from "./components/Calculator";
 import calculate from './logic/calculate';
-import "./App.css";
+
 
 class App extends Component {
   state = {
