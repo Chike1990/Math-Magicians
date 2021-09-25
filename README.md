@@ -36,7 +36,7 @@ $ cd dist
 </details>
 
 ### Live Server
-Optionally, you can run the application [here]().
+Optionally, you can run the application [here](https://chike1990.github.io/Math-Magicians/).
 
 ## Author
 
