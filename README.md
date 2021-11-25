@@ -1,5 +1,5 @@
 # Math Magician App
-The Math Magician App is a calculator app built with React.
+The Math Magician App is a calculator app built with React. In this milestone, I have used react components.
 
 ![Screenshot](src/assets/home.png)
 ![Screenshot](src/assets/Calculator.png)
