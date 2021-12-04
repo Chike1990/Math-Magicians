@@ -1,5 +1,5 @@
 # Math Magician App
-The Math Magician App is a calculator app built with React. In this milestone, I have used react components. However, I added the logic needed to make the Calculator component to work; refactored with react hooks.
+The Math Magician App is a calculator app built with React. In this milestone, I have used react router to create a full Maths Magician website.
 
 ![Screenshot](src/assets/home.png)
 ![Screenshot](src/assets/Calculator.png)
